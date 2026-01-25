@@ -36,5 +36,6 @@ func LoadGraph() (*Node, *Node) {
 	d.Neighbors[p] = 1
 	p.Neighbors[d] = 1
 
-	return a, p //  tujuan mampang  (3 lokasi)
+	return a, d //  tujuan baranangsiang  (3 lokasi)
+
 }
