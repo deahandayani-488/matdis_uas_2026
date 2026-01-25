@@ -15,11 +15,11 @@ func NewNode(name string) *Node {
 
 // data wilayah + relasi
 func LoadGraph() (*Node, *Node) {
-	a := NewNode("Kebayoran Lama")
-	b := NewNode("Kebayoran Center")
-	c := NewNode("Radio Dalam")
-	d := NewNode("Mampang")
-	p := NewNode("Agen Ban")
+	a := NewNode("Dramaga")
+	b := NewNode("ciawi")
+	c := NewNode("pajajaran")
+	d := NewNode("baranangsiang")
+	p := NewNode("ciampea")
 
 	// relasi atau jarak setiap node atau kantor
 	// semakin besar angkanya semakin jauh
